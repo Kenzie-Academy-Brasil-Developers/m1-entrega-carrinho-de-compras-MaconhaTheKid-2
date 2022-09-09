@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body,figure,header,ul,li,img,p,h1,h2,h3,nav,div,a, section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 40%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+
+
+main .title{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    font-weight: 1000;
+    font-size: x-large;
+    
+    
+}
+
+
+
+main .topList{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+}
+main .topList .nameTop{
+    
+}
+main .topList .valueTop{}
+
+
+main .list_products{
+    display: flex;
+    
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    
+}
+main .list_products li{
+    display: flex;
+    align-items: center;
+    background-color: #F8F9FA;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    transition: all 0.3s ease 0s;
+}
+main .list_products li:hover{
+    
+    transition: all 0.3s ease 0s;
+    transform: scale(1.1, 1.1);
+}
+main .list_products li .nameProduct{
+    font-weight: 600;
+}
+main .list_products li .valueProduct{}
+
+
+main .bottonList{
+    display: flex;
+    align-items: center;
+    background-color: #E9ECEF;
+    justify-content: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px;
+}
+main .bottonList .nameBotton{}
+main .bottonList .valueBotton{}
+
+
+
+main button{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #20C997;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    transition: all 0.3s ease 0s;
+}
+main button:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease 0s;
+}
